@@ -76,7 +76,7 @@ class colaTurnos: # creamos la clase colaTurnos
     def siguienteCliente(self): # creamos el metodo para ver el siguiente cliente
         return self.cola[0] if self.cola else "no hay clientes" # vemos el siguiente cliente
     
-    # ejercicio 8
+# ejercicio 8
 
 class nodo:
     def __init__(self, dato):
@@ -96,7 +96,7 @@ class listaEnlazada:
             actual = actual.siguiente
         print("none")
     
-    # ejercicio 9
+# ejercicio 9
 
     def invertir(self):
         prev = None
